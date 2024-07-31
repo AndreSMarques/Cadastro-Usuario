@@ -1,0 +1,27 @@
+GET http://localhost:3000/users?age=21&email=maemerae@gmail.com
+
+
+
+###
+POST http://localhost:3000/users
+content-type: application/json
+
+{
+    "name": "stafene",
+    "age": "25",
+    "email": "estefane@gmail.com"
+}
+
+###
+PUT http://localhost:3000/users/66a93b23e7052bcb7790de62
+content-type: application/json
+
+{
+    "name": "Joselino",
+    "age": "22",
+    "email": "joselino@gmail.com"
+}
+
+###
+DELETE  http://localhost:3000/users/66a93b23e7052bcb7790de62
+
